@@ -34,7 +34,7 @@ audio: music/InstrumentOfSurrender.mp3
 @next
 new-page: true
 
-= Maseric
+*There is nothing, nothing but the void. You don't know this void, this emptiness.*
 
 
 - @who: Who am I?
@@ -43,14 +43,14 @@ new-page: true
 
 @who
 
-blah
+*You are like everyone in this land. You are a failure.*
 
 
 @what
 
-blah
+*This is your kingdom, your fiefdom, your land. Rule it, make it easy on them, or not.*
 
 
 @who2
 
-blah
+*I am you.*
