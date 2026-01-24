@@ -41,16 +41,24 @@ new-page: true
 - @what: What is this?
 - @who2: Who are you?
 
+
 @who
 
 *You are like everyone in this land. You are a failure.*
 
+- @what: What is this?
+- @who2: Who are you?
 
 @what
 
 *This is your kingdom, your fiefdom, your land. Rule it, make it easy on them, or not.*
 
+- @who: Who am I?
+- @who2: Who are you?
 
 @who2
 
-*I am you.*
+*I am you, yet, I'm not.*
+- @what: What is this?
+- @who2: Who are you?
+- @main: Wake up.
