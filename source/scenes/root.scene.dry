@@ -32,9 +32,10 @@ audio: music/InstrumentOfSurrender.mp3
 - @next: Continue 
 
 @next
+new-page: true
 
 = Maseric
-new-page: true
+
 
 - @who: Who am I?
 - @what: What is this?
