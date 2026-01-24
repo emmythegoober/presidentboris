@@ -20,17 +20,14 @@ set-bg: img/bg1.jpg
 new-page: true
 audio: music/InstrumentOfSurrender.mp3
 
-> *"Such a general development cannot be attributed to the false tactics of any single party or to the mistakes of individual leaders. On the contrary, the conduct of individual leaders is determined largely by the sentiments of the people as a whole. It would be erroneous, however, to regard the sentiments of the moment as reflecting the natural make-up and character of the people. They are merely the consequence of the special circumstances which have brought about this profound degradation of the entire nation."*
+> *"There should be no freedom in Maseric, no fulfilment of needs, no happiness. Maseric is to be a nation of tragic beings, its trees are to die and never grow back, its people are to be abandoned and forgotten, no one should live in this nation made for punishment. It is an eternal February in the State of Maseric and no one wishes to change it."
 
- - Karl Kautsky, *Hitlerism and Social Democracy*, 1934
+- Igor Lopsovk, *Nations Made of Ruins*, 1878
 
-This is a game of alternate history. While historical accuracy is a major concern, keep in mind that this is a *game*, and that any divergence from actual events will necessarily have to involve some element of make-believe. Nevertheless, please let the author know if there are any glaring mistakes.
 
-For more information on the politics and government of the German Republic, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
+- @1888_main: Begin 
 
-- @1928_main: Begin 
-
-@1928_main
+@1988_main
 
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
