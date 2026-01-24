@@ -16,9 +16,9 @@ go-to: start_menu_2
 
 
 @start
-set-bg: img/map_2.jpg
+set-bg: img/bg1.jpg
 new-page: true
-
+audio: music/InstrumentOfSurrender.mp3
 > *"Such a general development cannot be attributed to the false tactics of any single party or to the mistakes of individual leaders. On the contrary, the conduct of individual leaders is determined largely by the sentiments of the people as a whole. It would be erroneous, however, to regard the sentiments of the moment as reflecting the natural make-up and character of the people. They are merely the consequence of the special circumstances which have brought about this profound degradation of the entire nation."*
 
  - Karl Kautsky, *Hitlerism and Social Democracy*, 1934
@@ -30,7 +30,7 @@ For more information on the politics and government of the German Republic, see 
 - @1928_main: Begin 
 
 @1928_main
-audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_HOHEN_BERGEN_noise_reduced.mp3 music/1928_1930/MarekWeber.mp3 music/1928_1930/BAUERNKAPELLE.mp3 music/1928_1933/DERLINDENBAUM_normalized.mp3 music/1928_1933/ZurSonne_zurFreiheit.mp3 music/1928_1933/arbeiter_marseille.mp3 music/1928_1933/Wann_wir_schreiten_Seit_an_Seit.mp3 music/1930_1933/Internationale-de_normalized.ogg music/1928_1930/LiedDerPompadour.mp3 music/1928_1933/SozialistenMarsch.mp3
+
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
