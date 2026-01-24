@@ -27,7 +27,7 @@ audio: music/InstrumentOfSurrender.mp3
 
 - @1888_main: Begin 
 
-@1988_main
+@1888_main
 
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
