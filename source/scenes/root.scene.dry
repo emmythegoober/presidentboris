@@ -34,7 +34,7 @@ audio: music/InstrumentOfSurrender.mp3
 @next
 new-page: true
 
-*You are alone in a room. There is nothing but this room. There are no windows, doors, anything that would offer a glimpse of the outside world. Inside this room there`s a table and behind that table there`s a mirror.*
+*You are alone in a room. There is nothing but this room. There are no windows, doors, anything that would offer a glimpse of the outside world. Inside this room there's a table and behind that table there's a mirror.*
 
 
 - @mirror: Look into the mirror.
@@ -42,7 +42,7 @@ new-page: true
 
 @mirror
 
-*You look into the mirror. The reflection shows a man, possibly in his 50s. He`s balding, wrinkles cover his face, the signs of aging are apparent. For him, the days of glory have passed and all there`s left are the memories of what was and the notions of what`s yet to come.*
+*You look into the mirror. The reflection shows a man, possibly in his 50s. He`s balding, wrinkles cover his face, the signs of aging are apparent. For him, the days of glory have passed and all there's left are the memories of what was and the notions of what's yet to come.*
 
 - @table: Look at the table.
 - @speak: "Who am I?"
