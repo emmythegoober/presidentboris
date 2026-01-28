@@ -34,35 +34,28 @@ audio: music/InstrumentOfSurrender.mp3
 @next
 new-page: true
 
-*There is nothing, nothing but the void. You don't know this void, this emptiness.*
+*You are alone in a room. There is nothing but this room. There are no windows, doors, anything that would offer a glimpse of the outside world. Inside this room there`s a table and behind that table there`s a mirror.*
 
 
-- @who: Who am I?
-- @what: What is this?
-- @who2: Who are you?
+- @mirror: Look into the mirror.
+- @table: Look at the table.
 
+@mirror
 
-@who
+*You look into the mirror. The reflection shows a man, possibly in his 50s. He`s balding, wrinkles cover his face, the signs of aging are apparent. For him, the days of glory have passed and all there`s left are the memories of what was and the notions of what`s yet to come.*
 
-{!<span style="color:darkred;"><i>Who am I?</i></span>!}
-*You are like everyone in this land. You are a failure.*
+- @table: Look at the table.
+- @speak: "Who am I?"
 
-- @what: What is this?
-- @who2: Who are you?
+@table
 
-@what
+*The table is adorned by paraphernalia. A photo of your father, a nameplate, a gun, paperwork, medals, honors, diplomatic creations, the flag of the State of Maseric, and dust, loads of dust.*
 
-{!<span style="color:darkred;"><i>What is thisI?</i></span>!}
-*This is your kingdom, your fiefdom, your land. Rule it, make it easy on them, or not.*
+- @mirror: Look into the mirror
+- @speak: "Who am I?"
 
-- @who: Who am I?
-- @who2: Who are you?
+@speak
 
-@who2
+*You are Boris Tolyat. You are the President of the State of Maseric. You are a failure*
 
-{!<span style="color:darkred;"><i>Who are you??</i></span>!}
-*I am you, yet, I'm not.*
-
-- @what: What is this?
-- @who2: Who are you?
 - @main: Wake up.
