@@ -1,0 +1,12 @@
+title: Speech on Referendum Results
+new-page: true
+is-card: true
+view-if: year = 1889 and month = 7
+card-image: img/actions/speech.png
+tags: people_affairs
+#subtitle: Issues of farmer financing, grain purchasing, and land reform.
+
+= Agricultural Policy
+
+While agricultural policy has historically not been the domain of the SPD, there is much need for policy in this area. Our urban constituencies hope for cheaper and more stable food supplies, while small farmers need economic relief. There is also the movement for land reform, to break up the large aristocratic estates and redistribute land to peasants.
+

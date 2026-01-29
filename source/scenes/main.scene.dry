@@ -13,11 +13,9 @@ max-cards: 3
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1889 and month = 7 : *You don't* ?]
+[? if year = 1889 and month = 7 : This world was not made for you, this country was not made for you. Maseric crawls out of its dictatorship not due to revolution, but due to the dictator's son's mercy. The economic situation is the worst it has ever been, ethnic tensions ravage the southern provinces of Dorvik and Vosvojina, international isolation, party ruptures, everything seems like it was handpicked for you to suffer. ?]
 
-- @party
 - @people
-- @land
 - #advisor
 - @shuffle_leadership_pinned
 
@@ -36,7 +34,7 @@ max-cards: 4
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1928 and month = 2 : The current bourgeois-right government has fallen. The next elections are slated for May of this year. ?]
+[? if year = 1889 and month = 8 : The current bourgeois-right government has fallen. The next elections are slated for May of this year. ?]
 
 - @party
 - @people
@@ -47,21 +45,21 @@ max-cards: 4
 
 @party
 title: The Party
-card-image: img/Vorwaerts_nr_1.png
+card-image: img/party.png
 is-deck: true
 
 - #party_affairs
 
 @people
 title: The People
-view-if: time >= 6
-card-image: img/reichstag_2.jpg
+card-image: img/people.jpg
 is-deck: true
+
+- #people_affairs
 
 @land
 title: The Country
-view-if: time >= 6
-card-image: img/reichstag_2.jpg
+card-image: img/country.jpg
 is-deck: true
 
 - #govt_affairs
