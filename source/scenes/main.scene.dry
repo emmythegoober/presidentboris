@@ -13,9 +13,11 @@ max-cards: 3
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1889 and month = 7 : This world was not made for you, this country was not made for you. Maseric crawls out of its dictatorship not due to revolution, but due to the dictator's son's mercy. The economic situation is the worst it has ever been, ethnic tensions ravage the southern provinces of Dorvik and Vosvojina, international isolation, party ruptures, everything seems like it was handpicked for you to suffer. ?]
+[? if year = 1889 and month = 7 : This world was not made for you, this country was not made for you. Maseric crawls out of its dictatorship not due to revolution, but due to the dictator's son's mercy. The economic situation is the worst it has ever been, ethnic tensions ravage the southern provinces of Dorvik and Vosvojina, international isolation, party ruptures, everything seems like it was handpicked for you to suffer. It is an ethernal February in the State of Maseric.?]
 
 - @people
+- @party
+- @land
 - #advisor
 - @shuffle_leadership_pinned
 
