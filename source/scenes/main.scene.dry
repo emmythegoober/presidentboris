@@ -13,42 +13,19 @@ max-cards: 3
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-[? if year = 1889 and month = 7 : This world was not made for you, this country was not made for you. Maseric crawls out of its dictatorship not due to revolution, but due to the dictator's son's mercy. The economic situation is the worst it has ever been, ethnic tensions ravage the southern provinces of Dorvik and Vosvojina, international isolation, party ruptures, everything seems like it was handpicked for you to suffer. It is an ethernal February in the State of Maseric.?]
+[? if year = 1889 and month = 8 : blah?]
 
 - @people
 - @party
 - @land
 - #advisor
 - @shuffle_leadership_pinned
-
-@main_easy
-is-hand: true
-on-arrival: {!
-if (Q.advisor_action_timer <= 0) {
-    Q.pinnedCardsDescription = 'Advisors - an action is available.';
-} else if (Q.advisor_action_timer == 1) {
-    Q.pinnedCardsDescription = 'Advisors - next action available in 1 month.';
-} else {
-    Q.pinnedCardsDescription = 'Advisors - next action available in ' + Q.advisor_action_timer + ' months.';
-}
-!}
-max-cards: 4
-
-#Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
-
-[? if year = 1889 and month = 8 : The current bourgeois-right government has fallen. The next elections are slated for May of this year. ?]
-
-- @party
-- @people
-- @land
-- #advisor
-- @shuffle_leadership_pinned
-
 
 @party
 title: The Party
 card-image: img/party.png
 is-deck: true
+view-if: time >= 2
 
 - #party_affairs
 
@@ -63,6 +40,7 @@ is-deck: true
 title: The Country
 card-image: img/country.png
 is-deck: true
+view-if: time >= 2
 
 - #govt_affairs
 
