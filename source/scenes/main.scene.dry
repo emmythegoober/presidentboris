@@ -52,14 +52,14 @@ is-deck: true
 
 @people
 title: The People
-card-image: img/people.jpg
+card-image: img/people.png
 is-deck: true
 
 - #people_affairs
 
 @land
 title: The Country
-card-image: img/country.jpg
+card-image: img/country.png
 is-deck: true
 
 - #govt_affairs
