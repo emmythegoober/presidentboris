@@ -1,9 +1,10 @@
 title: Speech on Referendum Results
 new-page: true
 is-card: true
-view-if: year = 1889 and month = 7
+view-if: year = 1889 and month = 7 and not_done_speech = 1
 card-image: img/actions/speech.png
 tags: people_affairs
+on-arrival: not_done_speech = 0
 #subtitle: Issues of farmer financing, grain purchasing, and land reform.
 
 = The Speech
