@@ -534,6 +534,8 @@ Q.march_on_berlin_timer = 0;
 
 Q.not_done_speech = 1;
 
+Q.legacy = "ineffective";
+Q.political_position = "right-wing";
 
 // intials
 Q.joao_advisor = 1; 
