@@ -14,10 +14,10 @@ if (Q.economic_growth) {
 }
 !}
 
+
 {!<img src="img/status/MainStatus.png">!}
 
 = Status
-
 
 [+ month : month +] [+ year +]
 
@@ -76,6 +76,7 @@ Economic growth: [+ economic_growth_2 +]%
 
 @politics
 
+
 {!<img src="img/status/PoliticsStatus.png">!}
 
 = Inter-party Relations
@@ -122,6 +123,7 @@ if (Q.sa_strength) {
 }
 !}
 
+
 {!<img src="img/status/ArmyStatus.png">!}
 
 = Paramilitaries
@@ -161,7 +163,8 @@ Q.nationalism_disp = Math.round(Q.nationalism);
 Q.socialism_disp = Math.round(Q.socialism);
 !}
 
-{!<img src="img/status/ArmyStatus.png">!}
+
+{!<img src="img/status/PollsStatus.png">!}
 
 = Projected election results
 
@@ -202,6 +205,7 @@ Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD
 Support for the Republic: [+ pro_republic_disp +]%
 
 @personal
+
 
 {!<img src="img/status/PersonalStatus.png">!}
 
